@@ -5,12 +5,14 @@ import json
 import os
 import re
 import requests
+import time
 from pprint import pprint
 
 def plaintext_parser(response_content):
     return response_content
 
 def get(api_url, headers={'Content-Type': 'application/json'}, parser=json.loads):
+    time.sleep(1) # give the api a rest
     response = requests.get(api_url, headers=headers)
 
     if response.status_code == 200:
@@ -32,10 +34,11 @@ def main(args):
             if organism_match:
                 organism = organism_match.group(1)
                 seqdef = get(database['href'])
-                schemes = get(seqdef['schemes'])
-                for scheme in schemes['schemes']:
-                    description = scheme['description']
-                    print('\t'.join([name, organism, description]))
+                if seqdef['schemes']:
+                    schemes = get(seqdef['schemes'])
+                    for scheme in schemes['schemes']:
+                        description = scheme['description']
+                        print('\t'.join([name, organism, description]))
 
             
         
