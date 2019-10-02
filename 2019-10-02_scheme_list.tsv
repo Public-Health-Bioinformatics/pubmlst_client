@@ -1,0 +1,287 @@
+db_name	scheme	scheme_type
+achromobacter	achromobacter	MLST
+acinetobacter	abaumannii	MLST (Oxford)
+acinetobacter	abaumannii	MLST (Pasteur)
+aeromonas	aeromonas	MLST
+anaplasma	aphagocytophilum	MLST
+arcobacter	arcobacter	MLST
+bacillus	bcereus	MLST
+bacillus	blicheniformis	MLST
+bacillus	bsubtilis	MLST
+bacteriophages	llactis_phage	MLST
+bartonella	bbacilliformis	MLST
+bartonella	bhenselae	MLST
+bartonella	bwashoensis	MLST
+bordetella	bordetella	MLST
+bordetella	bordetella	Bordetella core genes
+bordetella	bordetella	Bordetella virulence associated genes
+borrelia	borrelia	MLST
+brachyspira	brachyspira	B. hampsonii MLST
+brachyspira	brachyspira	B. hyodysenteriae MLST
+brachyspira	brachyspira	B. intermedia MLST
+brachyspira	brachyspira	B. pilosicoli MLST
+brachyspira	brachyspira	Brachyspira MLST
+brucella	brucella	MLST (9 locus)
+brucella	brucella	MLST (21 locus)
+burkholderia	bcc	MLST
+burkholderia	bpseudomallei	MLST
+campylobacter	campylobacter_nonjejuni	C. concisus/curvus MLST
+campylobacter	campylobacter_nonjejuni	C. fetus MLST
+campylobacter	campylobacter_nonjejuni	C. helveticus MLST
+campylobacter	campylobacter_nonjejuni	C. hyointestinalis MLST
+campylobacter	campylobacter_nonjejuni	C. insulaenigrae MLST
+campylobacter	campylobacter_nonjejuni	C. lanienae MLST
+campylobacter	campylobacter_nonjejuni	C. lari MLST
+campylobacter	campylobacter_nonjejuni	C. sputorum MLST
+campylobacter	campylobacter_nonjejuni	C. upsaliensis MLST
+campylobacter	campylobacter	MLST
+campylobacter	campylobacter	1643 Gundogdu loci
+campylobacter	campylobacter	C. coli 15-537360
+campylobacter	campylobacter	C. jejuni / C. coli cgMLST v1.0
+campylobacter	campylobacter	ED pathway
+campylobacter	campylobacter	eMLST (21 partial genes)
+campylobacter	campylobacter	Ribosomal Protein Genes
+candida	calbicans	MLST
+candida	cglabrata	MLST
+candida	ctropicalis	MLST
+carnobacterium	cmaltaromaticum	MLST
+chlamydiales	chlamydiales	Aerobic and ATP Biogenesis
+chlamydiales	chlamydiales	Amino Acyl tRNA Synthesis
+chlamydiales	chlamydiales	Aromatic Amino Acids
+chlamydiales	chlamydiales	Aspartate Amino Acid
+chlamydiales	chlamydiales	Biotin, Lipoate and Ubiquinone
+chlamydiales	chlamydiales	Both Purine and Pyrimidine Metabolism
+chlamydiales	chlamydiales	C. abortus cgMLST v1.0
+chlamydiales	chlamydiales	Cell Division
+chlamydiales	chlamydiales	C. trachomatis cgMLST v1.0
+chlamydiales	chlamydiales	DNA Replication
+chlamydiales	chlamydiales	Electron Transport Chain
+chlamydiales	chlamydiales	Eukaryotic Type Chromatin Factors
+chlamydiales	chlamydiales	Fatty Acid and Phospholipid Metabolism
+chlamydiales	chlamydiales	Folic Acid
+chlamydiales	chlamydiales	Glycolysis, Gluconeogensis, Glycogen
+chlamydiales	chlamydiales	Membrane Proteins, Lipoproteins, Porins
+chlamydiales	chlamydiales	Miscellaneous Enzymes/Conserved Proteins
+chlamydiales	chlamydiales	MLST (Chlamydiales)
+chlamydiales	chlamydiales	MLST (C. trachomatis)
+chlamydiales	chlamydiales	MLST (C. trachomatis Uppsala)
+chlamydiales	chlamydiales	Nucleotide Excision and Repair
+chlamydiales	chlamydiales	Pathogenesis Associated Proteins
+chlamydiales	chlamydiales	Pentose Phosphate Pathway
+chlamydiales	chlamydiales	Peptide Synthesis
+chlamydiales	chlamydiales	Peptidoglycan
+chlamydiales	chlamydiales	Phosphorous and Sulphur
+chlamydiales	chlamydiales	Plasmid loci
+chlamydiales	chlamydiales	Plasmid MLST
+chlamydiales	chlamydiales	Porphyrin
+chlamydiales	chlamydiales	Protein Folding, Assembly, Modification
+chlamydiales	chlamydiales	Purine Metabolism
+chlamydiales	chlamydiales	Pyrimidine Metabolism
+chlamydiales	chlamydiales	Pyruvate Dehydrogenase
+chlamydiales	chlamydiales	Recombination
+chlamydiales	chlamydiales	Riboflavin
+chlamydiales	chlamydiales	Ribosomal Protein genes
+chlamydiales	chlamydiales	RNA Associated
+chlamydiales	chlamydiales	Serine Amino Acid
+chlamydiales	chlamydiales	Signal Transduction
+chlamydiales	chlamydiales	Specific Proteins
+chlamydiales	chlamydiales	TCA Cycle
+chlamydiales	chlamydiales	Transport Related Proteins
+chlamydiales	chlamydiales	Type III Effector Proteins
+chlamydiales	chlamydiales	Type III Secretion Systems
+citrobacter	cfreundii	MLST
+clonorchis	csinensis	MLST
+clostridioides	cdifficile	cwp cluster genes
+clostridioides	cdifficile	MLST
+clostridium	cbotulinum	MLST
+clostridium	cbotulinum	Extended MLST
+clostridium	csepticum	MLST
+corynebacterium	cdiphtheriae	MLST
+cronobacter	cronobacter	cogMLST
+cronobacter	cronobacter	Ext-MLST
+cronobacter	cronobacter	Gcog
+cronobacter	cronobacter	MLST
+cronobacter	cronobacter	O-serotype
+cronobacter	cronobacter	Tax-MLST
+cutibacterium	pacnes	MLST
+dichelobacter	dnodosus	cgMLST
+dichelobacter	dnodosus	MLST
+edwardsiella	edwardsiella	MLST
+enterobacter	ecloacae	MLST
+enterococcus	efaecalis	MLST
+enterococcus	efaecium	MLST
+flavobacterium	fpsychrophilum	MLST
+gallibacterium	gallibacterium	MLST
+haemophilus	hinfluenzae	Capsule - Region I
+haemophilus	hinfluenzae	Capsule - Region III
+haemophilus	hinfluenzae	Capsule - serotype A
+haemophilus	hinfluenzae	Capsule - serotype B
+haemophilus	hinfluenzae	Capsule - serotype C
+haemophilus	hinfluenzae	Capsule - serotype D
+haemophilus	hinfluenzae	Capsule - Serotype E
+haemophilus	hinfluenzae	Capsule - serotype F
+haemophilus	hinfluenzae	MLST
+haemophilus	hparasuis	MLST
+helicobacter	hcinaedi	MLST
+helicobacter	helicobacter	MLST
+helicobacter	hsuis	MLST
+klebsiella	kaerogenes	MLST
+klebsiella	koxytoca	MLST
+kudoa	kseptempunctata	MLST
+lactobacillus	lsalivarius	MLST
+leptospira	leptospira	MLST (scheme 1)
+leptospira	leptospira	MLST (scheme 2)
+leptospira	leptospira	MLST (scheme 3)
+leptospira	leptospira	LPS
+leptospira	leptospira	Pathogenic cgMLST
+liberibacter	liberibacter	MLST
+macrococcus	mcanis	MLST
+macrococcus	mcaseolyticus	MLST
+melissococcus	mplutonius	MLST
+mycobacterium	mabscessus	M. abscessus MLST
+mycobacterium	mabscessus	M. massiliense MLST
+mycobacterium	mycobacteria	Core genome (H37Rv ref vs 19 finished species)
+mycobacterium	mycobacteria	MLST
+mycoplasma	magalactiae	MLST
+mycoplasma	mbovis	MLST
+mycoplasma	mflocculare	MLST
+mycoplasma	mhyopneumoniae	MLST
+mycoplasma	mhyorhinis	MLST
+mycoplasma	miowae	MLST
+neisseria	neisseria	MLST
+neisseria	neisseria	Finetyping antigens
+neisseria	neisseria	rplF species
+neisseria	neisseria	ADP-heptose biosynthesis
+neisseria	neisseria	Antibiotic resistance
+neisseria	neisseria	Antigen genes
+neisseria	neisseria	beta lactamase plasmid
+neisseria	neisseria	Bexsero Antigen Sequence Typing (BAST)
+neisseria	neisseria	Capsule Null (cnl)
+neisseria	neisseria	Capsule Region A - Serogroup A
+neisseria	neisseria	Capsule Region A - Serogroup B
+neisseria	neisseria	Capsule Region A - Serogroup C
+neisseria	neisseria	Capsule Region A - Serogroup E
+neisseria	neisseria	Capsule Region A - Serogroup H
+neisseria	neisseria	Capsule Region A - Serogroup L
+neisseria	neisseria	Capsule Region A - Serogroup W
+neisseria	neisseria	Capsule Region A - Serogroup X
+neisseria	neisseria	Capsule Region A - Serogroup Y
+neisseria	neisseria	Capsule Region A - Serogroup Z
+neisseria	neisseria	Capsule Region B
+neisseria	neisseria	Capsule Region C
+neisseria	neisseria	Capsule Region D and D'
+neisseria	neisseria	Conjugative Plasmid
+neisseria	neisseria	Cryptic Plasmid
+neisseria	neisseria	DNA replication
+neisseria	neisseria	eMLST (20 locus partial genes)
+neisseria	neisseria	eMLST (20 locus whole genes)
+neisseria	neisseria	Factor H binding protein
+neisseria	neisseria	Glycolysis
+neisseria	neisseria	Gonococcal Genetic Island
+neisseria	neisseria	Human-restricted Neisseria cgMLST v1.0
+neisseria	neisseria	Iron acquisition
+neisseria	neisseria	Kdo addition
+neisseria	neisseria	L3_cgMLST
+neisseria	neisseria	L44_cgMLST
+neisseria	neisseria	L44_pgMLST
+neisseria	neisseria	Lipid A biosynthesis: acyltransferases
+neisseria	neisseria	Lipid A biosynthesis: other
+neisseria	neisseria	LOS alpha chain transferases
+neisseria	neisseria	LOS inner core transferases
+neisseria	neisseria	LOS transport/export
+neisseria	neisseria	Methyltransferases
+neisseria	neisseria	MGI-1
+neisseria	neisseria	MGI-2
+neisseria	neisseria	MGI-3
+neisseria	neisseria	NadA
+neisseria	neisseria	Neisseria Heparin Binding Antigen (NHBA)
+neisseria	neisseria	NG MAST
+neisseria	neisseria	N. gonorrhoeae Beta-lactam AMR
+neisseria	neisseria	N. gonorrhoeae cgMLST v1.0
+neisseria	neisseria	N. gonorrhoeae Efflux Pumps AMR
+neisseria	neisseria	N. gonorrhoeae Fluoroquinolone AMR
+neisseria	neisseria	N. gonorrhoeae Macrolides AMR
+neisseria	neisseria	N. gonorrhoeae plasmid mediated AMR
+neisseria	neisseria	NG STAR
+neisseria	neisseria	N. meningitidis cgMLST v1.0
+neisseria	neisseria	Nucleotide excision repair
+neisseria	neisseria	OMV peptide
+neisseria	neisseria	OMV peptide typing
+neisseria	neisseria	Pilus genes
+neisseria	neisseria	Protein glycosylation
+neisseria	neisseria	Purine metabolism
+neisseria	neisseria	Pyrimidine metabolism
+neisseria	neisseria	Pyruvate dehydrogenase complex
+neisseria	neisseria	Ribosomal protein genes
+neisseria	neisseria	RNA polymerase
+neisseria	neisseria	Small regulatory RNAs
+neisseria	neisseria	TCA cycle
+neisseria	neisseria	tRNA molecules
+neisseria	neisseria	UDP-GlcNAc synthesis 
+neisseria	neisseria	UDP-glucose and UDP-galactose biosynthesis
+neisseria	neisseria	VirB T4SS
+orientia	otsutsugamushi	MLST
+ornithobacterium	orhinotracheale	MLST
+paenibacillus	plarvae	MLST
+pasteurella	pmultocida	Multiple host MLST
+pasteurella	pmultocida	RIRDC MLST
+pediococcus	ppentosaceus	MLST
+photobacterium	pdamselae	MLST
+piscirickettsia	psalmonis	MLST
+plasmid	plasmid	IncA/C cgPMLST
+plasmid	plasmid	IncA/C PMLST
+plasmid	plasmid	IncF RST
+plasmid	plasmid	IncHI1 MLST
+plasmid	plasmid	IncHI2 DLST
+plasmid	plasmid	IncI1 MLST
+plasmid	plasmid	IncN MLST
+plasmid	plasmid	pBSSB1-family
+porphyromonas	pgingivalis	MLST
+pseudomonas	paeruginosa	MLST
+pseudomonas	paeruginosa	pAMBL1
+pseudomonas	paeruginosa	pCOL-1
+pseudomonas	paeruginosa	pCOOP-101
+pseudomonas	paeruginosa	pMATVIM-7
+pseudomonas	paeruginosa	pNOR-2000
+pseudomonas	pfluorescens	MLST
+pseudomonas	pputida	MLST
+ranatipestifer	ranatipestifer	MLST
+rhodococcus	rhodococcus	MLST
+salmonella	salmonella	cgMLST v2 (Enterobase)
+salmonella	salmonella	MLST
+salmonella	salmonella	Oxford loci
+salmonella	salmonella	SalmcgMLST v1.0
+saprolegnia	sparasitica	MLST
+sinorhizobium	sinorhizobium	MLST
+smaltophilia	smaltophilia	MLST
+staphylococcus	saureus	MLST
+staphylococcus	saureus	Core 2208
+streptococcus	spneumoniae	MLST
+streptococcus	spyogenes	MLST
+streptococcus	ssuis	MLST
+streptococcus	sthermophilus	MLST
+streptococcus	suberis	MLST
+streptococcus	suberis	vMLST
+streptococcus	szooepidemicus	MLST
+streptomyces	streptomyces	MLST
+taylorella	taylorella	MLST
+tenacibaculum	tenacibaculum	MLST
+treponema	tpallidum	MLST
+trichomonas	tvaginalis	MLST
+ureaplasma	ureaplasma	MLST
+ureaplasma	ureaplasma	eMLST
+vibrio	vcholerae	MLST
+vibrio	vcholerae	MLST (O1 and O139)
+vibrio	vcholerae	cgMLST
+vibrio	vibrio	MLST
+vibrio	vparahaemolyticus	MLST
+vibrio	vparahaemolyticus	AA-MLST
+vibrio	vparahaemolyticus	cgMLST
+vibrio	vparahaemolyticus	Virulence markers
+vibrio	vtapetis	MLST
+vibrio	vvulnificus	MLST
+wolbachia	wolbachia	MLST
+wolbachia	wolbachia	WSP
+xylella	xfastidiosa	MLST
+yersinia	yersinia	MLST
+yersinia	yruckeri	MLST
