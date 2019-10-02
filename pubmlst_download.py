@@ -31,10 +31,9 @@ def main(args):
     ])
 
     schemes_response = get(schemes_url)
-    cgmlst_scheme_url = list(filter(lambda scheme: scheme['description'] == 'cgMLST', schemes_response['schemes']))[0]['scheme']
+    scheme_url = list(filter(lambda scheme: scheme['description'] == args.scheme_type, schemes_response['schemes']))[0]['scheme']
 
-    pprint(cgmlst_scheme_url)
-    scheme_response = get(cgmlst_scheme_url)
+    scheme_response = get(scheme_url)
     
     for locus_url in scheme_response['loci']:
         locus = get(locus_url)
@@ -48,6 +47,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--scheme", "-s", dest="scheme", help="scheme to download")
+    parser.add_argument("--scheme_type", "-t", dest="scheme_type", default="cgMLST", help="Type of scheme to download ('cgMLST', 'MLST')")
     parser.add_argument("--outdir", "-o", dest="outdir", default='.', help="output directory")
     args = parser.parse_args()
     
