@@ -4,14 +4,28 @@ import argparse
 import json
 import os
 import requests
+import time
 from pprint import pprint
 
 def plaintext_parser(response_content):
     return response_content
 
 def get(api_url, headers={'Content-Type': 'application/json'}, parser=json.loads):
-    response = requests.get(api_url, headers=headers)
-
+    retries = 0
+    while retries < 5:
+        try:
+            response = requests.get(api_url, headers=headers)
+            retries = 0
+            break
+        except requests.exceptions.ConnectionError as e:
+            log_msg = {
+                'event': 'connection_error',
+                'url': api_url,
+                'retries': retries,
+            }
+            print(json.dumps(log_msg))
+            retries += 1
+            
     if response.status_code == 200:
         return parser(response.content.decode('utf-8'))
     else:
@@ -39,8 +53,14 @@ def main(args):
         locus = get(locus_url)
         plaintext_header = {'Content-Type': 'text/plain'}
         alleles_fasta = get(locus['alleles_fasta'], plaintext_header, plaintext_parser)
-        with open(os.path.join(args.outdir, locus['id'] + '.fasta'), 'w') as f:
+        output_filename = os.path.join(args.outdir, locus['id'] + '.fasta')
+        with open(output_filename, 'w') as f:
             f.write(alleles_fasta)
+        log_msg = {
+            'event': 'file_downloaded',
+            'filename': output_filename,
+        }
+        print(json.dumps(log_msg))
             
         
 
