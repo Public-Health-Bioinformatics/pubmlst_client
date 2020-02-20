@@ -14,6 +14,7 @@ from pubmlst_client.util import get
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--pattern', '-p', default="", help="regex pattern to filter scheme names")
+    parser.add_argument('--exclude_pattern', '-e', default="", help="regex pattern to filter scheme names")
     parser.add_argument('--names_only', '-n', default="", action='store_true', help="Only show scheme names")
     
     args = parser.parse_args()
@@ -40,8 +41,10 @@ def main():
     for db in url_base_response:
         databases =  db['databases']
         for database in databases:
-            
-            scheme_match = re.search('pubmlst_(' + args.pattern + '.+' + ')_seqdef$', database['href'])
+            if args.exclude_pattern != "":
+                if re.search('pubmlst_(' + '.*' + args.exclude_pattern + '.*' + ')_seqdef$', database['name']):
+                    continue
+            scheme_match = re.search('pubmlst_(' + '.*' + args.pattern + '.*' + ')_seqdef$', database['name'])
             if scheme_match:
                 scheme_name = scheme_match.group(1)
                 if args.names_only:
