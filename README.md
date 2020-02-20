@@ -5,11 +5,14 @@
 ### List available schemes
 
 ```
-usage: pubmlst_list [-h] [--pattern PATTERN] [--names_only]
+usage: pubmlst_list [-h] [--pattern PATTERN]
+                    [--exclude_pattern EXCLUDE_PATTERN] [--names_only]
 
 optional arguments:
   -h, --help            show this help message and exit
   --pattern PATTERN, -p PATTERN
+                        regex pattern to filter scheme names
+  --exclude_pattern EXCLUDE_PATTERN, -e EXCLUDE_PATTERN
                         regex pattern to filter scheme names
   --names_only, -n      Only show scheme names
 ```
