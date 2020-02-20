@@ -4,48 +4,63 @@ import argparse
 import json
 import os
 import re
-import requests
+import urllib.request
+import sys
 import time
-from pprint import pprint
 
-def plaintext_parser(response_content):
-    return response_content
+from pubmlst_client.util import get
 
-def get(api_url, headers={'Content-Type': 'application/json'}, parser=json.loads):
-    time.sleep(1) # give the api a rest
-    response = requests.get(api_url, headers=headers)
 
-    if response.status_code == 200:
-        return parser(response.content.decode('utf-8'))
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--pattern', '-p', default="", help="regex pattern to filter scheme names")
+    parser.add_argument('--names_only', '-n', default="", action='store_true', help="Only show scheme names")
+    
+    args = parser.parse_args()
+
+    details_fields = [
+        'id',
+        'description',
+        'locus_count',
+        'records',
+        'last_added',
+        'last_updated',
+    ]
+    
+    if args.names_only:
+        print('name')
     else:
-        return None
+        print('\t'.join(['name'] + details_fields)) 
 
-def main(args):
-    print('\t'.join(['db_name', 'scheme', 'scheme_type'])) 
     api_url_base = 'http://rest.pubmlst.org/db'
 
-    url_base_response = get(api_url_base)
+    url_base_response = json.loads(get(api_url_base))
+
+
     for db in url_base_response:
-        name = db['name']
         databases =  db['databases']
         for database in databases:
-            # if True:
-            organism_match = re.search('pubmlst_(.+)_seqdef$', database['href'])
-            if organism_match:
-                organism = organism_match.group(1)
-                seqdef = get(database['href'])
-                if seqdef['schemes']:
-                    schemes = get(seqdef['schemes'])
-                    for scheme in schemes['schemes']:
-                        description = scheme['description']
-                        print('\t'.join([name, organism, description]))
-
             
-        
+            scheme_match = re.search('pubmlst_(' + args.pattern + '.+' + ')_seqdef$', database['href'])
+            if scheme_match:
+                scheme_name = scheme_match.group(1)
+                if args.names_only:
+                    print(scheme_name)
+                    break
+                seqdef = json.loads(get(database['href']))
+                if seqdef:
+                    schemes = json.loads(get(seqdef['schemes']))
+                    for scheme in schemes['schemes']:
+                        scheme_details = json.loads(get(scheme['scheme']))
+                        if scheme_details:
+                            details = {}
+                            for field in details_fields:
+                                try:
+                                    details[field] = scheme_details[field]
+                                except KeyError:
+                                    details[field] = None
+                            print('\t'.join(map(str, [scheme_name] + list(details.values()))), flush=True)
+
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-
-    args = parser.parse_args()
-    
-    main(args)
+    main()
