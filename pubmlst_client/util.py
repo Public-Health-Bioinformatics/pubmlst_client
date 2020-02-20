@@ -29,5 +29,14 @@ def get(api_url, headers={'Content-Type': 'application/json'}, max_retries=5):
 
     if response and response.status == 200:
         return response_content
+    elif response and response.status == 401:
+        log_msg = {
+                'timestamp': str(datetime.datetime.now().isoformat()),
+                'event': 'connection_error',
+                'url': api_url,
+                'message': 'Unauthorized',
+            }
+        print(json.dumps(log_msg), file=sys.stderr)
+        return None
     else:
         return None
