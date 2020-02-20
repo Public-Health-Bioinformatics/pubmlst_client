@@ -39,4 +39,11 @@ def get(api_url, headers={'Content-Type': 'application/json'}, max_retries=5):
         print(json.dumps(log_msg), file=sys.stderr)
         return None
     else:
+        if retries == max_retries:
+            log_msg = {
+                'timestamp': str(datetime.datetime.now().isoformat()),
+                'event': 'max_retries',
+                'url': api_url,
+            }
+            print(json.dumps(log_msg), file=sys.stderr)
         return None

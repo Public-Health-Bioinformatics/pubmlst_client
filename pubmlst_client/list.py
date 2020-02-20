@@ -50,19 +50,20 @@ def main():
                 if args.names_only:
                     print(scheme_name)
                     break
-                seqdef = json.loads(get(database['href']))
-                if seqdef:
-                    schemes = json.loads(get(seqdef['schemes']))
-                    for scheme in schemes['schemes']:
-                        scheme_details = json.loads(get(scheme['scheme']))
-                        if scheme_details:
-                            details = {}
-                            for field in details_fields:
-                                try:
-                                    details[field] = scheme_details[field]
-                                except KeyError:
-                                    details[field] = None
-                            print('\t'.join(map(str, [scheme_name] + list(details.values()))), flush=True)
+                seqdef_response = get(database['href'])
+                if seqdef_response:
+                    schemes_response = get(json.loads(seqdef_response)['schemes'])
+                    if schemes_response:
+                        for scheme in json.loads(schemes_response)['schemes']:
+                            scheme_details_response = get(scheme['scheme'])
+                            if scheme_details_response:
+                                details = {}
+                                for field in details_fields:
+                                    try:
+                                        details[field] = json.loads(scheme_details_response)[field]
+                                    except KeyError:
+                                        details[field] = None
+                                print('\t'.join(map(str, [scheme_name] + list(details.values()))), flush=True)
 
 
 if __name__ == '__main__':
