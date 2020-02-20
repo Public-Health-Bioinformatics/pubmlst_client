@@ -1,4 +1,4 @@
-# pubMLST Download Script
+# pubMLST Client
 
 ## Usage
 
