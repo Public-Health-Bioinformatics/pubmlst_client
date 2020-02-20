@@ -13,7 +13,7 @@ from pubmlst_client.util import get
 def main():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--scheme_name", "-s", dest="scheme_name", help="scheme name")
+    parser.add_argument("--scheme_name", "-s", dest="scheme_name", help="scheme name", required=True)
     parser.add_argument("--scheme_id", "-i", dest="scheme_id", default="1", help="scheme id")
     parser.add_argument("--outdir", "-o", dest="outdir", default='.', help="output directory")
     args = parser.parse_args()
