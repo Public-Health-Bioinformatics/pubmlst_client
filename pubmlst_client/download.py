@@ -16,12 +16,13 @@ def main():
     parser.add_argument("--scheme_name", "-s", dest="scheme_name", help="scheme name", required=True)
     parser.add_argument("--scheme_id", "-i", dest="scheme_id", default="1", help="scheme id")
     parser.add_argument("--outdir", "-o", dest="outdir", default='.', help="output directory")
+    parser.add_argument("--base-url", "-b", dest="base_url", default='http://rest.pubmlst.org/db', help="Base URL for the API. Suggested values are: http://rest.pubmlst.org/db (default), https://bigsdb.pasteur.fr/api/db")
     args = parser.parse_args()
     
     if not os.path.exists(args.outdir):
         os.mkdir(args.outdir)
 
-    api_url_base = 'http://rest.pubmlst.org/db'
+    api_url_base = args.base_url
 
     scheme_url = '/'.join([
         api_url_base,
