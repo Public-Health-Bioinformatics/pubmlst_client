@@ -16,6 +16,7 @@ def main():
     parser.add_argument('--pattern', '-p', default="", help="regex pattern to filter scheme names")
     parser.add_argument('--exclude_pattern', '-e', default="", help="regex pattern to filter scheme names")
     parser.add_argument('--names_only', '-n', default="", action='store_true', help="Only show scheme names")
+    parser.add_argument("--base-url", "-b", dest="base_url", default='http://rest.pubmlst.org/db', help="Base URL for the API. Suggested values are: http://rest.pubmlst.org/db (default), https://bigsdb.pasteur.fr/api/db")
     
     args = parser.parse_args()
 
@@ -33,7 +34,7 @@ def main():
     else:
         print('\t'.join(['name'] + details_fields)) 
 
-    api_url_base = 'http://rest.pubmlst.org/db'
+    api_url_base = args.base_url
 
     url_base_response = json.loads(get(api_url_base))
 
