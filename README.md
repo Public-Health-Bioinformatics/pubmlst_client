@@ -5,8 +5,7 @@
 ### List available schemes
 
 ```
-usage: pubmlst_list [-h] [--pattern PATTERN]
-                    [--exclude_pattern EXCLUDE_PATTERN] [--names_only]
+usage: pubmlst_list [-h] [--pattern PATTERN] [--exclude_pattern EXCLUDE_PATTERN] [--names_only] [--base-url BASE_URL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -15,6 +14,8 @@ optional arguments:
   --exclude_pattern EXCLUDE_PATTERN, -e EXCLUDE_PATTERN
                         regex pattern to filter scheme names
   --names_only, -n      Only show scheme names
+  --base-url BASE_URL, -b BASE_URL
+                        Base URL for the API. Suggested values are: http://rest.pubmlst.org/db (default), https://bigsdb.pasteur.fr/api/db
 ```
 
 #### Example Output
@@ -30,8 +31,7 @@ optional arguments:
 ### Download schemes
 
 ```
-usage: pubmlst_download [-h] [--scheme_name SCHEME_NAME]
-                        [--scheme_id SCHEME_ID] [--outdir OUTDIR]
+usage: pubmlst_download [-h] --scheme_name SCHEME_NAME [--scheme_id SCHEME_ID] [--outdir OUTDIR] [--base-url BASE_URL]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -41,4 +41,6 @@ optional arguments:
                         scheme id
   --outdir OUTDIR, -o OUTDIR
                         output directory
+  --base-url BASE_URL, -b BASE_URL
+                        Base URL for the API. Suggested values are: http://rest.pubmlst.org/db (default), https://bigsdb.pasteur.fr/api/db
 ```
