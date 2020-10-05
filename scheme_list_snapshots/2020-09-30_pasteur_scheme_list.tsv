@@ -1,0 +1,35 @@
+name	id	description	locus_count	records	last_added	last_updated
+klebsiella	20	AbST	5	64	2020-09-04	2020-09-04
+klebsiella	1	MLST	7	5210	2020-09-30	2020-09-30
+klebsiella	17	CbST	15	68	2020-09-04	2020-09-04
+klebsiella	11	Aminoglycoside resistance genes	74	None	None	None
+klebsiella	5	Beta-lactamase genes	23	None	None	None
+klebsiella	15	cgMLST_KpI	2537	None	None	None
+klebsiella	10	cgMLST_ST258_ST512_ST1199	1371	None	None	None
+klebsiella	13	cps cluster genes	2	None	None	None
+klebsiella	6	Efflux systems and regulators	17	None	None	None
+klebsiella	8	Heavy metal resistance genes	40	None	None	None
+klebsiella	7	hvK2 multiplex PCR	5	None	None	None
+klebsiella	22	otherResistanceGenes	2	None	None	None
+klebsiella	12	Quinolone resistance genes	10	None	None	None
+klebsiella	19	r_cg_MLST	0	None	None	None
+klebsiella	18	scgMLST629_S	629	1729	2018-07-12	2018-07-12
+klebsiella	3	scgMLST634	632	None	None	None
+klebsiella	21	SmST	4	37	2020-09-04	2020-09-04
+klebsiella	9	Species-specific markers	7	None	None	None
+klebsiella	14	Urease-Nickel cluster	6	None	None	None
+klebsiella	4	Virulence genes	80	None	None	None
+klebsiella	2	wzi	1	591	2020-05-28	2020-05-28
+klebsiella	16	YbST	11	378	2020-09-04	2020-09-04
+listeria	2	MLST	7	2319	2020-09-23	2020-09-23
+listeria	3	cgMLST1748	1748	20581	2020-09-15	2020-09-15
+listeria	4	PCR-serogroup	5	153	2020-09-23	2020-09-23
+listeria	5	Virulence	92	None	None	None
+listeria	6	Antibiotic Resistance	17	None	None	None
+listeria	7	Metal  & Detergent Resistance	8	None	None	None
+listeria	8	Stress Islands	7	None	None	None
+listeria	10	Listeria Stress Islands	88	None	None	None
+listeria	11	sigB operon	8	None	None	None
+listeria	12	Rhamnose operon	5	None	None	None
+listeria	13	Clonogrouping	0	None	None	None
+listeria	14	PBPs	0	None	None	None
