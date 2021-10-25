@@ -1,0 +1,429 @@
+name	id	description	locus_count	records	last_added	last_updated
+abaumannii	1	MLST (Oxford)	7	2461	2021-10-05	2021-10-05
+abaumannii	2	MLST (Pasteur)	7	1889	2021-09-30	2021-09-30
+aeromonas	1	MLST	6	1055	2021-10-20	2021-10-20
+aactinomycetemcomitans	1	MLST	7	57	2020-05-24	2020-05-24
+aphagocytophilum	1	MLST	7	184	2019-11-14	2019-11-14
+arcobacter	1	MLST	7	833	2021-02-25	2021-02-25
+afumigatus	1	MLST	7	48	2014-09-16	2014-09-16
+bcereus	1	MLST	7	2792	2021-10-20	2021-10-20
+bcereus	2	B. anthracis cgMLST	3803	648	2020-11-10	2020-11-10
+bcereus	3	B. anthracis accessory genes	1263	None	None	None
+bcereus	4	B. anthracis plasmids	10	40	2021-02-15	2021-02-15
+blicheniformis	14	MLST	6	50	2020-12-14	2020-12-14
+bsubtilis	1	MLST	7	251	2021-10-07	2021-10-07
+llactis_phage	1	MLST	5	221	2017-06-19	2017-06-19
+bbacilliformis	1	MLST	7	14	2017-06-17	2017-06-17
+bhenselae	1	MLST	8	37	2021-04-23	2021-04-23
+bwashoensis	1	MLST	6	21	2019-08-22	2019-08-22
+blastocystis	1	ST3 MLST	5	81	2019-05-20	2019-05-20
+blastocystis	2	ST4 MLST	6	6	2011-09-16	2011-09-16
+borrelia	1	MLST	8	974	2021-09-02	2021-09-02
+borrelia	2	MLSA (legacy)	7	None	None	None
+brucella	1	MLST (9 locus)	9	104	2021-10-11	2021-10-11
+brucella	2	MLST (21 locus)	21	153	2021-10-11	2021-10-11
+brucella	3	cgMLST	1665	0	None	None
+bcc	1	MLST	7	2049	2021-10-19	2021-10-19
+bpseudomallei	1	MLST	7	1940	2021-10-14	2021-10-14
+campylobacter_nonjejuni	9	C. fetus MLST	7	73	2020-11-02	2020-11-02
+campylobacter_nonjejuni	1	C. helveticus MLST	7	9	2015-01-12	2015-01-12
+campylobacter_nonjejuni	6	C. hyointestinalis MLST	7	135	2021-02-16	2021-02-16
+campylobacter_nonjejuni	2	C. insulaenigrae MLST	7	43	2011-11-10	2011-11-10
+campylobacter_nonjejuni	7	C. lanienae MLST	7	172	2018-11-27	2018-11-27
+campylobacter_nonjejuni	3	C. lari MLST	7	299	2021-09-08	2021-09-08
+campylobacter_nonjejuni	8	C. sputorum MLST	7	16	2011-11-18	2011-11-18
+campylobacter_nonjejuni	4	C. upsaliensis MLST	7	211	2020-10-23	2020-10-23
+campylobacter	1	MLST	7	11537	2021-10-19	2021-10-19
+campylobacter	3	1643 Gundogdu loci	1643	None	None	None
+campylobacter	6	C. coli 15-537360	1588	None	None	None
+campylobacter	4	C. jejuni / C. coli cgMLST v1.0	1343	35308	2021-10-15	2021-10-15
+campylobacter	7	ED pathway	7	None	None	None
+campylobacter	2	eMLST (21 partial genes)	21	None	None	None
+campylobacter	5	Ribosomal Protein Genes	52	None	None	None
+calbicans	1	MLST	7	3668	2021-09-27	2021-09-27
+cglabrata	1	MLST	6	193	2021-07-22	2021-07-22
+ckrusei	1	MLST	6	239	2021-09-20	2021-09-20
+ctropicalis	1	MLST	6	1200	2021-10-14	2021-10-14
+cmaltaromaticum	1	MLST	7	56	2018-04-11	2018-04-11
+chlamydiales	16	Aerobic and ATP Biogenesis	16	None	None	None
+chlamydiales	7	Amino Acyl tRNA Synthesis	3	None	None	None
+chlamydiales	17	Aromatic Amino Acids	10	None	None	None
+chlamydiales	18	Aspartate Amino Acid	5	None	None	None
+chlamydiales	20	Biotin, Lipoate and Ubiquinone	6	None	None	None
+chlamydiales	26	Both Purine and Pyrimidine Metabolism	4	None	None	None
+chlamydiales	44	C. abortus cgMLST v1.0	959	None	None	None
+chlamydiales	30	Cell Division	9	None	None	None
+chlamydiales	42	C. trachomatis cgMLST v1.0	817	373	2020-09-30	2020-09-30
+chlamydiales	3	DNA Replication	24	None	None	None
+chlamydiales	14	Electron Transport Chain	4	None	None	None
+chlamydiales	37	Eukaryotic Type Chromatin Factors	4	None	None	None
+chlamydiales	29	Fatty Acid and Phospholipid Metabolism	27	None	None	None
+chlamydiales	21	Folic Acid	5	None	None	None
+chlamydiales	10	Glycolysis, Gluconeogensis, Glycogen	20	None	None	None
+chlamydiales	27	Membrane Proteins, Lipoproteins, Porins	9	None	None	None
+chlamydiales	36	Miscellaneous Enzymes/Conserved Proteins	44	None	None	None
+chlamydiales	1	MLST (Chlamydiales)	7	317	2021-10-14	2021-10-14
+chlamydiales	38	MLST (C. trachomatis)	7	88	2019-11-18	2019-11-18
+chlamydiales	41	MLST (C. trachomatis Uppsala)	5	527	2020-08-13	2020-08-13
+chlamydiales	4	Nucleotide Excision and Repair	18	None	None	None
+chlamydiales	33	Pathogenesis Associated Proteins	25	None	None	None
+chlamydiales	15	Pentose Phosphate Pathway	8	None	None	None
+chlamydiales	8	Peptide Synthesis	14	None	None	None
+chlamydiales	28	Peptidoglycan	16	None	None	None
+chlamydiales	11	Phosphorous and Sulphur	4	None	None	None
+chlamydiales	2	Plasmid loci	8	None	None	None
+chlamydiales	40	Plasmid MLST	8	47	2015-10-06	2015-10-06
+chlamydiales	22	Porphyrin	9	None	None	None
+chlamydiales	9	Protein Folding, Assembly, Modification	37	None	None	None
+chlamydiales	24	Purine Metabolism	3	None	None	None
+chlamydiales	25	Pyrimidine Metabolism	7	None	None	None
+chlamydiales	12	Pyruvate Dehydrogenase	7	None	None	None
+chlamydiales	5	Recombination	8	None	None	None
+chlamydiales	23	Riboflavin	5	None	None	None
+chlamydiales	43	Ribosomal Protein genes	52	None	None	None
+chlamydiales	6	RNA Associated	44	None	None	None
+chlamydiales	19	Serine Amino Acid	2	None	None	None
+chlamydiales	31	Signal Transduction	18	None	None	None
+chlamydiales	35	Specific Proteins	11	None	None	None
+chlamydiales	13	TCA Cycle	11	None	None	None
+chlamydiales	34	Transport Related Proteins	54	None	None	None
+chlamydiales	39	Type III Effector Proteins	0	None	None	None
+chlamydiales	32	Type III Secretion Systems	58	None	None	None
+cfreundii	1	MLST	7	601	2021-10-19	2021-10-19
+csinensis	1	MLST	8	254	2012-01-07	2012-01-07
+cdifficile	2	cwp cluster genes	6	None	None	None
+cdifficile	1	MLST	7	908	2021-10-19	2021-10-19
+cdifficile	3	Pathogenicity loci	5	None	None	None
+cbotulinum	1	MLST	7	154	2021-10-05	2021-10-05
+cbotulinum	2	Extended MLST	14	0	None	None
+cchauvoei	2	agMLST	234	None	None	None
+cchauvoei	1	cgMLST	2223	60	2021-08-18	2021-08-18
+cperfringens	1	MLST	8	415	2021-10-19	2021-10-19
+cperfringens	2	cgMLST	1431	169	2021-08-04	2021-08-04
+csepticum	1	MLST	7	8	2008-07-29	2008-07-29
+cdiphtheriae	1	MLST	7	799	2021-09-23	2021-09-23
+cronobacter	4	cogMLST	1865	None	None	None
+cronobacter	3	Ext-MLST	3	0	None	None
+cronobacter	5	Gcog	222	None	None	None
+cronobacter	1	MLST	7	768	2021-10-23	2021-10-23
+cronobacter	6	O-serotype	2	0	None	None
+cronobacter	2	Tax-MLST	2	None	None	None
+pacnes	3	MLST	8	158	2021-02-20	2021-02-20
+dnodosus	3	cgMLST	714	None	None	None
+dnodosus	1	MLST	7	115	2017-09-13	2017-09-13
+edwardsiella	1	MLST	10	22	2020-04-23	2020-04-23
+ecloacae	1	MLST	7	1725	2021-10-21	2021-10-21
+efaecalis	1	MLST	7	1164	2021-10-05	2021-10-05
+efaecium	1	MLST	7	2082	2021-10-11	2021-10-11
+escherichia	1	MLST (Achtman)	7	11248	2021-10-22	2021-10-22
+escherichia	2	MLST (Pasteur)	8	1077	2021-07-19	2021-07-19
+escherichia	10	accessory genome	22489	None	None	None
+escherichia	3	beta-lactamase resistance	9	None	None	None
+escherichia	6	cgMLST	2513	None	None	None
+escherichia	12	IncL/M	3	None	None	None
+escherichia	4	locus of enterocyte effacement (LEE) island	40	None	None	None
+escherichia	14	oxa-48 chromosome loci	29	None	None	None
+escherichia	8	pO157 plasmid	49	None	None	None
+escherichia	13	pOXA-48 plasmid	71	None	None	None
+escherichia	11	quinolone resistance	4	None	None	None
+escherichia	5	shiga toxins	4	None	None	None
+escherichia	9	virulence genes	16	None	None	None
+escherichia	7	wgMLST	25002	None	None	None
+fpsychrophilum	1	MLST	7	264	2021-10-15	2021-10-15
+gallibacterium	1	MLST	8	81	2012-06-12	2012-06-12
+geotrichum	1	MLST	5	40	2015-07-29	2015-07-29
+hparasuis	1	MLST	7	461	2021-10-18	2021-10-18
+hinfluenzae	1	MLST	7	2500	2021-10-12	2021-10-12
+hinfluenzae	42	Alanine, aspartate and glutamate metabolism	13	None	None	None
+hinfluenzae	14	Aminoacyl-tRNA biosynthesis	24	None	None	None
+hinfluenzae	19	Amino sugar and nucleotide sugar metabolism	21	None	None	None
+hinfluenzae	52	Antimicrobial Resistance	6	None	None	None
+hinfluenzae	43	Arginine and proline metabolism	20	None	None	None
+hinfluenzae	21	Butanoate metabolism	8	None	None	None
+hinfluenzae	2	Capsule - Region I	4	None	None	None
+hinfluenzae	4	Capsule - Region III	2	None	None	None
+hinfluenzae	7	Capsule - serotype A	2	None	None	None
+hinfluenzae	3	Capsule - serotype B	8	None	None	None
+hinfluenzae	8	Capsule - serotype C	4	None	None	None
+hinfluenzae	9	Capsule - serotype D	5	None	None	None
+hinfluenzae	6	Capsule - Serotype E	8	None	None	None
+hinfluenzae	5	Capsule - serotype F	3	None	None	None
+hinfluenzae	38	Cysteine and methionine metabolism	17	None	None	None
+hinfluenzae	10	DNA Replication	13	None	None	None
+hinfluenzae	32	Fatty acid biosynthesis	11	None	None	None
+hinfluenzae	31	Fatty acid metabolism	3	None	None	None
+hinfluenzae	23	Fructose and mannose metabolism	13	None	None	None
+hinfluenzae	20	Galactose Metabolism	6	None	None	None
+hinfluenzae	33	Glycerolipid metabolism	6	None	None	None
+hinfluenzae	34	Glycerophospholipid metabolism	19	None	None	None
+hinfluenzae	39	Glycine, serine and threonine metabolism	19	None	None	None
+hinfluenzae	15	Glycolysis	15	None	None	None
+hinfluenzae	16	Glyoxylate and dicarboxylate metabolism	11	None	None	None
+hinfluenzae	45	Histidine metabolism	8	None	None	None
+hinfluenzae	53	Iron Acquisition	13	None	None	None
+hinfluenzae	50	LOS Biosynthesis	23	None	None	None
+hinfluenzae	40	Lysine biosynthesis	14	None	None	None
+hinfluenzae	47	Lysine degradation	4	None	None	None
+hinfluenzae	26	Methane metabolism	26	None	None	None
+hinfluenzae	27	Nitrogen Metabolism	10	None	None	None
+hinfluenzae	11	Nucleotide Excision Repair	12	None	None	None
+hinfluenzae	29	Oxidative phosphorylation	10	None	None	None
+hinfluenzae	25	Pentose and glucuronate interconversions	4	None	None	None
+hinfluenzae	24	Pentose Phosphate Pathway	15	None	None	None
+hinfluenzae	37	Phenylalanine metabolism	4	None	None	None
+hinfluenzae	44	Phenylalanine, tyrosine, tryptophan biosynthesis	19	None	None	None
+hinfluenzae	51	Pilus Biosynthesis	6	None	None	None
+hinfluenzae	22	Propanoate metabolism	10	None	None	None
+hinfluenzae	35	Purine Metabolism	58	None	None	None
+hinfluenzae	36	Pyrimidine Metabolism	43	None	None	None
+hinfluenzae	18	Pyruvate Metabolism	20	None	None	None
+hinfluenzae	30	Reductive carboxylate cycle (CO2 fixation)	13	None	None	None
+hinfluenzae	13	Ribosomal Protein Genes	56	None	None	None
+hinfluenzae	12	RNA Polymerase	11	None	None	None
+hinfluenzae	28	Sulphur Metabolism	8	None	None	None
+hinfluenzae	17	TCA Cycle	12	None	None	None
+hinfluenzae	41	Tryptophan metabolism	6	None	None	None
+hinfluenzae	46	Tyrosine metabolism	4	None	None	None
+hinfluenzae	48	Valine, leucine and isoleucine biosynthesis	11	None	None	None
+hinfluenzae	49	Valine, leucine and isoleucine degradation	3	None	None	None
+hcinaedi	1	MLST	7	21	2020-10-12	2020-10-12
+helicobacter	1	MLST	7	3941	2021-07-14	2021-07-14
+hsuis	1	MLST	7	141	2020-03-06	2020-03-06
+kaerogenes	1	MLST	7	241	2021-10-21	2021-10-21
+koxytoca	1	MLST	7	371	2021-10-12	2021-10-12
+kseptempunctata	1	MLST	2	3	2014-12-22	2014-12-22
+lsalivarius	1	MLST	5	25	2010-12-07	2010-12-07
+leptospira	1	MLST (scheme 1)	7	331	2021-03-29	2021-03-29
+leptospira	2	MLST (scheme 2)	7	273	2019-04-24	2019-04-24
+leptospira	3	MLST (scheme 3)	6	194	2020-02-10	2020-02-10
+leptospira	4	cgMLST	1565	None	None	None
+leptospira	5	LPS	21	None	None	None
+liberibacter	1	MLST	7	14	2020-05-07	2020-05-07
+mcanis	1	MLST	7	83	2019-10-21	2019-10-21
+mcaseolyticus	1	MLST	7	67	2019-10-21	2019-10-21
+msciuri	1	MLST	7	122	2021-09-28	2021-09-28
+mhaemolytica	1	MLST	7	53	2021-09-15	2021-09-15
+mplutonius	1	MLST	4	38	2021-10-12	2021-10-12
+mycobacteria	1	Core genome (H37Rv ref vs 19 finished species)	744	5626	2017-08-25	2017-08-25
+mycobacteria	2	MLST	8	873	2019-11-15	2019-11-15
+mabscessus	1	MLST	7	258	2021-10-17	2021-10-17
+magalactiae	1	MLST	5	35	2019-04-24	2019-04-24
+manserisalpingitidis	1	MLST	5	76	2020-11-10	2020-11-10
+mbovis	2	MLST	7	168	2021-10-18	2021-10-18
+mbovis	1	MLST (legacy)	7	185	2020-01-10	2020-01-10
+mflocculare	1	MLST	3	8	2018-07-03	2018-07-03
+mgallisepticum	1	MLST#1 (Ghanem)	7	78	2021-07-21	2021-07-21
+mgallisepticum	2	MLST#2 (Bekő)	6	118	2021-10-10	2021-10-10
+mhominis	1	MLST	5	28	2021-09-28	2021-09-28
+mhominis	2	MVLST	5	31	2019-10-16	2019-10-16
+mhominis	3	eMLST	10	32	2019-10-16	2019-10-16
+mhyopneumoniae	1	MLST	3	181	2021-02-24	2021-02-24
+mhyorhinis	1	MLST	6	143	2020-11-26	2020-11-26
+miowae	1	MLST	6	35	2019-05-05	2019-05-05
+mpneumoniae	1	MLST	8	46	2021-07-30	2021-07-30
+msynoviae	1	MLST	7	169	2021-10-21	2021-10-21
+neisseria	1	MLST	7	16527	2021-10-21	2021-10-21
+neisseria	2	Finetyping antigens	3	None	None	None
+neisseria	42	rplF species	1	211	2019-02-06	2019-02-06
+neisseria	7	ADP-heptose biosynthesis	5	None	None	None
+neisseria	5	Antibiotic resistance	11	None	None	None
+neisseria	3	Antigen genes	7	None	None	None
+neisseria	52	beta lactamase plasmid	8	18	2018-04-17	2018-04-17
+neisseria	53	Bexsero Antigen Sequence Typing (BAST)	5	4394	2021-10-19	2021-10-19
+neisseria	63	Capsule Null (cnl)	1	None	None	None
+neisseria	29	Capsule Region A - Serogroup A	4	None	None	None
+neisseria	36	Capsule Region A - Serogroup B	5	None	None	None
+neisseria	37	Capsule Region A - Serogroup C	6	None	None	None
+neisseria	35	Capsule Region A - Serogroup E	7	None	None	None
+neisseria	32	Capsule Region A - Serogroup H	4	None	None	None
+neisseria	33	Capsule Region A - Serogroup L	3	None	None	None
+neisseria	38	Capsule Region A - Serogroup W	6	None	None	None
+neisseria	30	Capsule Region A - Serogroup X	3	None	None	None
+neisseria	39	Capsule Region A - Serogroup Y	6	None	None	None
+neisseria	31	Capsule Region A - Serogroup Z	4	None	None	None
+neisseria	41	Capsule Region B	2	None	None	None
+neisseria	40	Capsule Region C	4	None	None	None
+neisseria	48	Capsule Region D and D'	6	None	None	None
+neisseria	74	Commensal cps: Group 1	6	None	None	None
+neisseria	75	Commensal cps: Group 2	8	None	None	None
+neisseria	76	Commensal cps: Group 3	12	None	None	None
+neisseria	49	Conjugative Plasmid	50	242	2018-04-25	2018-04-25
+neisseria	66	Cryptic Plasmid	9	96	2018-05-15	2018-05-15
+neisseria	25	DNA replication	16	None	None	None
+neisseria	4	eMLST (20 locus partial genes)	20	None	None	None
+neisseria	12	eMLST (20 locus whole genes)	20	None	None	None
+neisseria	6	Factor H binding protein	10	None	None	None
+neisseria	73	GC OMV peptide typing	26	2371	2021-07-26	2021-07-26
+neisseria	15	Glycolysis	11	None	None	None
+neisseria	50	Gonococcal Genetic Island	73	None	None	None
+neisseria	72	Human-restricted Neisseria cgMLST v1.0	1441	None	None	None
+neisseria	21	Iron acquisition	7	None	None	None
+neisseria	19	Kdo addition	5	None	None	None
+neisseria	45	L3 cgMLST	1742	None	None	None
+neisseria	68	L44 cgMLST	1699	None	None	None
+neisseria	69	L44 pgMLST	1786	None	None	None
+neisseria	17	Lipid A biosynthesis: acyltransferases	4	None	None	None
+neisseria	18	Lipid A biosynthesis: other	5	None	None	None
+neisseria	9	LOS alpha chain transferases	7	None	None	None
+neisseria	8	LOS inner core transferases	7	None	None	None
+neisseria	20	LOS transport/export	5	None	None	None
+neisseria	77	Mendevar	7	None	None	None
+neisseria	43	Methyltransferases	54	None	None	None
+neisseria	54	MGI-1	7	None	None	None
+neisseria	55	MGI-2	21	None	None	None
+neisseria	56	MGI-3	18	None	None	None
+neisseria	46	NadA	2	None	None	None
+neisseria	44	Neisseria Heparin Binding Antigen (NHBA)	2	None	None	None
+neisseria	71	NG MAST v2.0	2	19349	2021-10-19	2021-10-19
+neisseria	80	N. gonorrhoeae agMLST v1.0	251	None	None	None
+neisseria	57	N. gonorrhoeae Beta-lactam AMR	5	None	None	None
+neisseria	62	N. gonorrhoeae cgMLST v1.0	1649	12443	2021-10-25	2021-10-25
+neisseria	61	N. gonorrhoeae Efflux Pumps AMR	10	None	None	None
+neisseria	58	N. gonorrhoeae Fluoroquinolone AMR	4	None	None	None
+neisseria	59	N. gonorrhoeae Macrolides AMR	2	None	None	None
+neisseria	81	N. gonorrhoeae pgMLST v1.0	1907	None	None	None
+neisseria	60	N. gonorrhoeae plasmid mediated AMR	2	None	None	None
+neisseria	67	NG STAR	7	1947	2020-11-28	2020-11-28
+neisseria	47	N. meningitidis cgMLST v1.0	1605	23059	2021-10-25	2021-10-25
+neisseria	27	Nucleotide excision repair	8	None	None	None
+neisseria	64	OMV peptide	50	None	None	None
+neisseria	65	OMV peptide typing	24	4046	2019-05-15	2019-05-15
+neisseria	13	Pilus genes	27	None	None	None
+neisseria	78	PorB_loop_peptides	8	None	None	None
+neisseria	28	Protein glycosylation	14	None	None	None
+neisseria	22	Purine metabolism	39	None	None	None
+neisseria	23	Pyrimidine metabolism	32	None	None	None
+neisseria	14	Pyruvate dehydrogenase complex	3	None	None	None
+neisseria	24	Ribosomal protein genes	55	None	None	None
+neisseria	79	RMS in Neisseria gonorrhoeae	36	None	None	None
+neisseria	26	RNA polymerase	4	None	None	None
+neisseria	34	Small regulatory RNAs	3	None	None	None
+neisseria	16	TCA cycle	16	None	None	None
+neisseria	70	tRNA molecules	21	None	None	None
+neisseria	11	UDP-GlcNAc synthesis 	1	None	None	None
+neisseria	10	UDP-glucose and UDP-galactose biosynthesis	2	None	None	None
+neisseria	51	VirB T4SS	31	None	None	None
+otsutsugamushi	1	MLST	7	98	2019-05-10	2019-05-10
+orhinotracheale	1	MLST	7	35	2018-01-03	2018-01-03
+plarvae	1	MLST	7	30	2020-12-10	2020-12-10
+pmultocida	1	Multiple host MLST	7	177	2021-06-18	2021-06-18
+pmultocida	2	RIRDC MLST	7	389	2021-06-01	2021-06-01
+ppentosaceus	1	MLST	7	17	2013-02-19	2013-02-19
+pdamselae	1	MLST	6	63	2021-05-06	2021-05-06
+psalmonis	1	MLST	7	28	2020-09-28	2020-09-28
+plasmid	7	IncA/C cgPMLST	28	41	2018-01-05	2018-01-05
+plasmid	6	IncA/C PMLST	4	13	2018-01-05	2018-01-05
+plasmid	3	IncF RST	7	None	None	None
+plasmid	5	IncHI1 MLST	6	16	2020-12-08	2020-12-08
+plasmid	2	IncHI2 DLST	2	16	2021-05-26	2021-05-26
+plasmid	1	IncI1 MLST	5	329	2021-03-05	2021-03-05
+plasmid	4	IncN MLST	3	23	2020-11-25	2020-11-25
+plasmid	8	pBSSB1-family	3	35	2019-04-09	2019-04-09
+pgingivalis	1	MLST	7	138	2007-08-12	2007-08-12
+paeruginosa	1	MLST	7	3833	2021-10-18	2021-10-18
+paeruginosa	2	Plasmid loci	199	None	None	None
+pfluorescens	1	MLST	7	121	2021-10-15	2021-10-15
+pputida	1	MLST	8	146	2021-10-21	2021-10-21
+ranatipestifer	1	MLST	7	82	2020-10-15	2020-10-15
+rhodococcus	1	MLST	7	46	2020-04-15	2020-04-20
+salmonella	4	cgMLST v2 (Enterobase)	3002	None	None	None
+salmonella	2	MLST	7	7680	2021-10-25	2021-10-25
+salmonella	1	Oxford loci	3633	None	None	None
+salmonella	3	SalmcgMLST v1.0	2750	13727	2021-02-08	2021-02-08
+sparasitica	1	MLST	7	15	2018-03-26	2018-03-26
+shewanella	1	MLST	8	74	2021-08-15	2021-08-15
+sinorhizobium	1	MLST	10	136	2010-05-07	2010-05-07
+smaltophilia	1	MLST	7	751	2021-10-19	2021-10-19
+saureus	1	MLST	7	7169	2021-10-23	2021-10-23
+saureus	2	Core 2208	2208	None	None	None
+schromogenes	1	MLST	7	127	2021-01-26	2021-01-26
+sepidermidis	1	MLST	7	1133	2021-10-13	2021-10-13
+shaemolyticus	1	MLST	7	92	2021-02-04	2021-02-04
+shominis	1	MLST	6	74	2020-09-04	2020-09-04
+spseudintermedius	1	MLST	7	2192	2021-08-20	2021-08-20
+oralstrep	2	S. mutans MLST (Do)	8	179	2019-10-08	2019-10-08
+oralstrep	3	S. mutans MLST (Nakano)	8	273	2020-12-30	2020-12-30
+oralstrep	1	S. oralis MLST	7	78	2015-10-23	2015-10-23
+sagalactiae	1	MLST	7	1861	2021-10-12	2021-10-12
+sagalactiae	37	Adherence Regulation	2	None	None	None
+sagalactiae	29	Alp Family Proteins	5	None	None	None
+sagalactiae	23	Amino Acid Metabolism	85	None	None	None
+sagalactiae	44	Aminoglycosides	2	None	None	None
+sagalactiae	17	Ascorbate and Aldarate Metabolism	28	None	None	None
+sagalactiae	3	Biosynthesis and activation of sialic acid	5	None	None	None
+sagalactiae	30	C5a Peptidase	2	None	None	None
+sagalactiae	4	Capsular polysaccharide Biosynthesis	7	None	None	None
+sagalactiae	46	Chloramphenicol	1	None	None	None
+sagalactiae	22	Fatty Acid Biosynthesis	18	None	None	None
+sagalactiae	31	Fibrinogen Binding Proteins	2	None	None	None
+sagalactiae	14	Fructose and Mannose Metabolism	36	None	None	None
+sagalactiae	15	Galactose Metabolism	34	None	None	None
+sagalactiae	12	Glycolysis	44	None	None	None
+sagalactiae	32	Haemolysin Operon	9	None	None	None
+sagalactiae	38	h_S.agalactiae cgMLST v1.0	1405	None	None	None
+sagalactiae	33	Hyaluronidase Activity	1	None	None	None
+sagalactiae	40	ICESag1962	51	None	None	None
+sagalactiae	39	IMESp2907	16	None	None	None
+sagalactiae	35	LysR family	1	None	None	None
+sagalactiae	45	Macrolides, lincosamides, Streptogramins	5	None	None	None
+sagalactiae	18	Oxidative phosphorylation	13	None	None	None
+sagalactiae	13	Pentose Phosphate Pathway	23	None	None	None
+sagalactiae	19	Photosynthesis	8	None	None	None
+sagalactiae	27	PI-1	6	None	None	None
+sagalactiae	28	PI-2a	5	None	None	None
+sagalactiae	26	PI-2b	5	None	None	None
+sagalactiae	34	Pilus Regulator	1	None	None	None
+sagalactiae	21	Purine Metabolism	63	None	None	None
+sagalactiae	20	Pyrimidine Metabolism	51	None	None	None
+sagalactiae	6	Serotype Ia	4	None	None	None
+sagalactiae	7	Serotype Ib	4	None	None	None
+sagalactiae	8	Serotype II	5	None	None	None
+sagalactiae	9	Serotype III	5	None	None	None
+sagalactiae	10	Serotype IV	6	None	None	None
+sagalactiae	5	Serotype V	6	None	None	None
+sagalactiae	41	Serotype VI	5	None	None	None
+sagalactiae	42	Serotype VII	4	None	None	None
+sagalactiae	16	Starch and Sucrose Metabolism	36	None	None	None
+sagalactiae	2	Synthesis of the group B carbohydrate	15	None	None	None
+sagalactiae	11	TCA Cycle	5	None	None	None
+sagalactiae	43	Tetracyclines	2	None	None	None
+sagalactiae	25	Transcription	4	None	None	None
+sagalactiae	36	Transcriptional Regulator	1	None	None	None
+sagalactiae	24	Translation	25	None	None	None
+sbsec	1	MLST	10	228	2020-12-15	2020-12-15
+scanis	1	MLST	7	62	2021-10-18	2021-10-18
+sdysgalactiae	1	MLST	7	557	2021-08-03	2021-08-03
+sgallolyticus	1	MLST	7	115	2021-07-27	2021-07-27
+siniae	1	MLST	8	13	2021-09-23	2021-09-23
+spneumoniae	1	MLST	7	17165	2021-10-07	2021-10-07
+spneumoniae	2	cgMLST	1360	6992	2020-02-14	2020-02-14
+spyogenes	2	FCT-AP1	4	None	None	None
+spyogenes	3	FCT-BP	4	None	None	None
+spyogenes	1	MLST	7	1280	2021-09-07	2021-09-07
+ssuis	1	MLST	7	1670	2021-10-15	2021-10-15
+sthermophilus	1	MLST	10	119	2015-06-18	2015-06-18
+suberis	1	MLST	7	1367	2021-06-04	2021-06-04
+suberis	2	vMLST	10	0	None	None
+szooepidemicus	1	MLST	7	516	2021-05-20	2021-05-20
+streptomyces	1	MLST	6	236	2021-03-17	2021-03-17
+taylorella	1	MLST	7	77	2021-09-30	2021-09-30
+tenacibaculum	1	MLST	7	174	2020-12-04	2020-12-04
+tpallidum	1	MLST	3	90	2021-08-31	2021-08-31
+tvaginalis	1	MLST	7	60	2016-02-08	2016-02-08
+ureaplasma	1	MLST	4	170	2021-01-01	2021-01-01
+ureaplasma	2	eMLST	6	229	2018-09-14	2018-09-14
+vcholerae	1	MLST	7	1505	2021-10-01	2021-10-01
+vcholerae	2	MLST (O1 and O139)	5	422	2019-09-13	2019-09-13
+vcholerae	3	cgMLST	2443	1074	2021-04-02	2021-04-02
+vibrio	1	MLST	4	212	2021-10-15	2021-10-15
+vparahaemolyticus	1	MLST	7	2561	2021-10-22	2021-10-22
+vparahaemolyticus	2	AA-MLST	7	244	2018-04-20	2018-04-20
+vparahaemolyticus	3	cgMLST	2254	None	None	None
+vparahaemolyticus	4	Virulence markers	3	None	None	None
+vtapetis	1	MLST	10	10	2011-09-22	2011-09-22
+vvulnificus	1	MLST	10	601	2021-07-15	2021-07-15
+wolbachia	1	MLST	5	579	2020-09-01	2020-09-01
+wolbachia	2	WSP	5	None	None	None
+xcitri	1	cgMLST	1618	228	2020-02-09	2020-02-09
+xfastidiosa	1	MLST	7	89	2021-10-22	2021-10-22
+yruckeri	1	MLST	6	30	2011-07-27	2011-07-27
