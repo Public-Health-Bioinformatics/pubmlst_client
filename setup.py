@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="pubmlst_client",
-    version="0.1.0",
+    version="0.3.0",
     description="Find and download schemes from pubmlst.org",
     long_description=README,
     long_description_content_type="text/markdown",
