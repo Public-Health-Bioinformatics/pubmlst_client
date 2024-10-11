@@ -30,37 +30,48 @@ def main():
         databases =  db['databases']
         for database in databases:
             if '_seqdef' in database['name']:
-                db_download_path = '%s/%s' % (args.outdir,database['name'].split('_')[1])
-                os.mkdir(db_download_path)
-                # Find MLST Scheme
+                db_download_path_1 = '%s/%s' % (args.outdir,database['name'].split('_')[1])
+                # Find MLST Schemes
                 schemes = json.loads(get(''.join([database['href'],'/schemes'])))
+                mlst_schemes = []
                 for scheme in schemes['schemes']:
-                    if scheme['description'] == 'MLST':
-                        mlst_scheme = scheme['scheme'].split('/')[-1]
-                plaintext_header = {'Content-Type': 'text/plain'}
-                types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_scheme]), headers=plaintext_header).decode('utf-8')
-                output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '.txt')
-                with open(output_filename, 'w') as f:
-                    f.write(types_tsv)
-                log_msg = {
-                        'timestamp': str(datetime.datetime.now().isoformat()),
-                        'event': 'file_downloaded',
-                        'filename': output_filename,
-                    }
-                print(json.dumps(log_msg), file=sys.stderr)
-                db_res = json.loads(get(''.join([database['href'],'/schemes/%s' % mlst_scheme])))
-                for locus_url in db_res['loci']:
-                    locus = json.loads(get(locus_url))
-                    alleles_fasta = get(locus['alleles_fasta'], headers=plaintext_header).decode('utf-8')
-                    output_filename = os.path.join(db_download_path, locus['id'] + '.fasta')
+                    if 'MLST' in scheme['description']:
+                        mlst_schemes.append(scheme['scheme'].split('/')[-1])
+                mlst_schemes.sort()
+                for i in range(len(mlst_schemes)):
+                    if i > 0:
+                        db_download_path = db_download_path_1 + "_%s" % (i+1)
+                        os.mkdir(db_download_path)
+                    else:
+                        db_download_path = db_download_path_1
+                        os.mkdir(db_download_path)
+                    plaintext_header = {'Content-Type': 'text/plain'}
+                    types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_schemes[i]]), headers=plaintext_header).decode('utf-8')
+                    if i > 0:
+                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '_%s'% i +'.txt')
+                    else:
+                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '.txt')
                     with open(output_filename, 'w') as f:
-                        f.write(alleles_fasta)
+                        f.write(types_tsv)
                     log_msg = {
-                        'timestamp': str(datetime.datetime.now().isoformat()),
-                        'event': 'file_downloaded',
-                        'filename': output_filename,
-                    }
+                            'timestamp': str(datetime.datetime.now().isoformat()),
+                            'event': 'file_downloaded',
+                            'filename': output_filename,
+                        }
                     print(json.dumps(log_msg), file=sys.stderr)
+                    db_res = json.loads(get(''.join([database['href'],'/schemes/%s' % mlst_schemes[i]])))
+                    for locus_url in db_res['loci']:
+                        locus = json.loads(get(locus_url))
+                        alleles_fasta = get(locus['alleles_fasta'], headers=plaintext_header).decode('utf-8')
+                        output_filename = os.path.join(db_download_path, locus['id'] + '.fasta')
+                        with open(output_filename, 'w') as f:
+                            f.write(alleles_fasta)
+                        log_msg = {
+                            'timestamp': str(datetime.datetime.now().isoformat()),
+                            'event': 'file_downloaded',
+                            'filename': output_filename,
+                        }
+                        print(json.dumps(log_msg), file=sys.stderr)
 
 if __name__ == '__main__':
     main()
