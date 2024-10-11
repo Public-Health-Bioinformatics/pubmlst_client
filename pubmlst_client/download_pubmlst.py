@@ -32,8 +32,13 @@ def main():
             if '_seqdef' in database['name']:
                 db_download_path = '%s/%s' % (args.outdir,database['name'].split('_')[1])
                 os.mkdir(db_download_path)
+                # Find MLST Scheme
+                schemes = json.loads(get(''.join([database['href'],'/schemes'])))
+                for scheme in schemes['schemes']:
+                    if scheme['description'] == 'MLST':
+                        mlst_scheme = scheme['scheme'].split('/')[-1]
                 plaintext_header = {'Content-Type': 'text/plain'}
-                types_tsv = get(''.join([database['href'],'/schemes/1/profiles_csv']), headers=plaintext_header).decode('utf-8')
+                types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_scheme]), headers=plaintext_header).decode('utf-8')
                 output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '.txt')
                 with open(output_filename, 'w') as f:
                     f.write(types_tsv)
@@ -43,7 +48,7 @@ def main():
                         'filename': output_filename,
                     }
                 print(json.dumps(log_msg), file=sys.stderr)
-                db_res = json.loads(get(''.join([database['href'],'/schemes/1'])))
+                db_res = json.loads(get(''.join([database['href'],'/schemes/%s' % mlst_scheme])))
                 for locus_url in db_res['loci']:
                     locus = json.loads(get(locus_url))
                     alleles_fasta = get(locus['alleles_fasta'], headers=plaintext_header).decode('utf-8')
