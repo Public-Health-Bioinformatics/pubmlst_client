@@ -48,7 +48,7 @@ def main():
                     plaintext_header = {'Content-Type': 'text/plain'}
                     types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_schemes[i]]), headers=plaintext_header).decode('utf-8')
                     if i > 0:
-                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '_%s'% i +'.txt')
+                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '_%s'% (i+1) +'.txt')
                     else:
                         output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '.txt')
                     with open(output_filename, 'w') as f:
