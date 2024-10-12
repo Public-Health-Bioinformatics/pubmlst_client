@@ -30,7 +30,7 @@ def main():
         databases =  db['databases']
         for database in databases:
             if '_seqdef' in database['name']:
-                db_download_path_1 = '%s/%s' % (args.outdir,database['name'].split('_')[1])
+                db_download_path_1 = '%s/%s' % (args.outdir,database['name'][8:-7])
                 # Find MLST Schemes
                 schemes = json.loads(get(''.join([database['href'],'/schemes'])))
                 mlst_schemes = []
@@ -48,9 +48,9 @@ def main():
                     plaintext_header = {'Content-Type': 'text/plain'}
                     types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_schemes[i]]), headers=plaintext_header).decode('utf-8')
                     if i > 0:
-                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '_%s'% (i+1) +'.txt')
+                        output_filename = os.path.join( db_download_path , database['name'][8:-7] + '_%s'% (i+1) +'.txt')
                     else:
-                        output_filename = os.path.join( db_download_path , database['name'].split('_')[1] + '.txt')
+                        output_filename = os.path.join( db_download_path , database['name'][8:-7] + '.txt')
                     with open(output_filename, 'w') as f:
                         f.write(types_tsv)
                     log_msg = {
