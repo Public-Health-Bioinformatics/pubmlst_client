@@ -35,7 +35,7 @@ def main():
                 schemes = json.loads(get(''.join([database['href'],'/schemes'])))
                 mlst_schemes = []
                 for scheme in schemes['schemes']:
-                    if 'MLST' in scheme['description']:
+                    if 'MLST' in scheme['description'] and 'cgMLST' not in scheme['description'] and 'eMLST' not in scheme['description'] :
                         mlst_schemes.append(scheme['scheme'].split('/')[-1])
                 mlst_schemes.sort()
                 for i in range(len(mlst_schemes)):
