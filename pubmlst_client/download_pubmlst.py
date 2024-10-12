@@ -39,16 +39,16 @@ def main():
                         mlst_schemes.append(scheme['scheme'].split('/')[-1])
                 mlst_schemes.sort()
                 for i in range(len(mlst_schemes)):
-                    if i > 0:
-                        db_download_path = db_download_path_1 + "_%s" % (i+1)
+                    if int(mlst_schemes[i])> 1:
+                        db_download_path = db_download_path_1 + "_%s" % (mlst_schemes[i])
                         os.mkdir(db_download_path)
                     else:
                         db_download_path = db_download_path_1
                         os.mkdir(db_download_path)
                     plaintext_header = {'Content-Type': 'text/plain'}
                     types_tsv = get(''.join([database['href'],'/schemes/%s/profiles_csv' % mlst_schemes[i]]), headers=plaintext_header).decode('utf-8')
-                    if i > 0:
-                        output_filename = os.path.join( db_download_path , database['name'][8:-7] + '_%s'% (i+1) +'.txt')
+                    if int(mlst_schemes[i])> 1:
+                        output_filename = os.path.join( db_download_path , database['name'][8:-7] + '_%s'% (mlst_schemes[i]) +'.txt')
                     else:
                         output_filename = os.path.join( db_download_path , database['name'][8:-7] + '.txt')
                     with open(output_filename, 'w') as f:
