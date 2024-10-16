@@ -29,16 +29,23 @@ def main():
     for db in url_base_response:
         databases =  db['databases']
         for database in databases:
+            # rmlst is a rescrited database
+            if 'rmlst' in database['name'] or 'test' in database['name']:
+                continue
             if '_seqdef' in database['name']:
                 db_download_path_1 = '%s/%s' % (args.outdir,database['name'][8:-7])
                 # Find MLST Schemes
                 schemes = json.loads(get(''.join([database['href'],'/schemes'])))
                 mlst_schemes = []
                 for scheme in schemes['schemes']:
-                    if 'MLST' in scheme['description'] and 'cgMLST' not in scheme['description'] and 'eMLST' not in scheme['description'] :
+                    # The desription element is has some inconsistancies; this list is to navigate those.
+                    if 'MLST' == scheme['description'] or "MLST" in  scheme['description'].split(' ') and  not "Extended MLST" == scheme['description']:
+                        if  'MLST (Pla-Díaz)' == scheme['description'] and database['name'][8:-7] == 'tpallidum':
+                            continue
                         mlst_schemes.append(scheme['scheme'].split('/')[-1])
                 mlst_schemes.sort()
                 for i in range(len(mlst_schemes)):
+                    # Folders in MLST script folders are named after the organism if scheme is 1. If scheme number lager than 1 then name is organisms with sheme number appended on.
                     if int(mlst_schemes[i])> 1:
                         db_download_path = db_download_path_1 + "_%s" % (mlst_schemes[i])
                         os.mkdir(db_download_path)
